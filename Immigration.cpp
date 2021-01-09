@@ -6,6 +6,8 @@
 
 using namespace std;
 
+//space complexity : O(N)
+//time complexitt: O(nlogn + n + logn) // quick sort + Nloop + logn
 
 /*
 n명의 심사자가 주어짐
