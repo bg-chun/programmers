@@ -17,6 +17,7 @@ long long solution(int n, vector<int> times) {
    
     sort(times.begin(), times.end());
     
+   //overflow나서 unsigned써야함
     unsigned long long answer = times[times.size() -1] * n; 
     unsigned long long low = 0;
     unsigned long long high = answer;
